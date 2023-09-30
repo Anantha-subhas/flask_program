@@ -15,6 +15,10 @@ def hello_world():
 def index3(name):
     return f"<h1>hello,{name}</h1>"
 
+# @app.route("/")
+# def main():
+#     return render_template("template/index.html")
+
 
 # Run the Flask application if this script is executed
 if __name__ == '__main__':
